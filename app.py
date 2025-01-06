@@ -33,7 +33,7 @@ st.write("This app predicts the next word in a sentence based on a trained LSTM 
 input_text = st.text_input("Enter the beginning of a sentence:", "")
 
 # Prediction
-if input_text:
+if st.button("Predict"):
     next_word = predict_next_word(model, tokenizer, input_text)
     if next_word:
         st.write(f"**Prediction:** The next word is likely to be **'{next_word}'**.")
