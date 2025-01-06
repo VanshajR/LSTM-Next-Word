@@ -44,4 +44,4 @@ else:
 
 # Footer
 st.markdown("---")
-st.markdown("Model was trained on text from Hamlet, thus the predcited word is also in accordance to said work.")
+st.markdown("Model was trained on text from Hamlet, thus the predicted word is also in accordance to said work.")
